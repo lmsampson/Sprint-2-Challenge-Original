@@ -36,7 +36,7 @@ class OrderingViewController: UIViewController {
                 numberOfItems += 1
             }
         }
-        textLabel?.text = "You currently have (\(numberOfItems) item(s) in your shopping cart."
+        textLabel?.text = "You currently have \(numberOfItems) item(s) in your shopping cart."
     }
     
     let localNotificationHelper = LocalNotificationHelper()
